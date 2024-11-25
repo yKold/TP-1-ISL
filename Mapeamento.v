@@ -1,4 +1,7 @@
-module Mapeamento(input [4:0] Linha, input Validade, output reg [6:0] Segmentos);
+module Mapeamento(
+    input [4:0] Linha, 
+    input Validade, 
+    output reg [6:0] Segmentos);
     always @(*) begin
         if (!Validade) begin
             Segmentos = 7'b1101111;

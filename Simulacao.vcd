@@ -1,0 +1,78 @@
+$date
+	Mon Nov 25 19:53:02 2024
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module Tester $end
+$var wire 1 ! Validade $end
+$var wire 7 " Segmentos [6:0] $end
+$var reg 1 # Paridade $end
+$var reg 5 $ Valores [4:0] $end
+$scope module dpl $end
+$var wire 1 # Paridade $end
+$var wire 1 ! Validade $end
+$var wire 5 % Valores [4:0] $end
+$var wire 1 & ValidadeInterna $end
+$var wire 7 ' Segmentos [6:0] $end
+$scope module map $end
+$var wire 5 ( Linha [4:0] $end
+$var wire 1 & Validade $end
+$var reg 7 ) Segmentos [6:0] $end
+$upscope $end
+$scope module vfc $end
+$var wire 1 # Paridade $end
+$var wire 5 * Valores [4:0] $end
+$var reg 1 & Validade $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+b0 *
+b1101111 )
+b0 (
+b1101111 '
+0&
+b0 %
+b0 $
+0#
+b1101111 "
+0!
+$end
+#10
+1#
+b1 $
+b1 %
+b1 (
+b1 *
+#20
+b110011 "
+b110011 '
+b110011 )
+1!
+1&
+0#
+b10 $
+b10 %
+b10 (
+b10 *
+#30
+b1101111 "
+b1101111 '
+b1101111 )
+0!
+0&
+1#
+b100 $
+b100 %
+b100 (
+b100 *
+#40
