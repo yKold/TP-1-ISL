@@ -15,10 +15,14 @@ module Tester;
         $dumpfile("Simulacao.vcd"); 
         $dumpvars(0, Tester);     
 
+        $monitor("Tempo: %0t | Valores: %b, Paridade: %b, Segmentos: %b, Validade: %b", $time, Valores, Paridade, Segmentos, Validade);
+
         Valores = 5'b00000; Paridade = 1'b0; #10;
         Valores = 5'b00001; Paridade = 1'b1; #10;
         Valores = 5'b00010; Paridade = 1'b0; #10;
         Valores = 5'b00100; Paridade = 1'b1; #10;
+
+        $finish;
     end
 
 endmodule
